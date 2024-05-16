@@ -166,7 +166,7 @@ const optionsRoom = [
   },
   {
     value: 'Option1111',
-    label: '大床房',
+    label: ' 大床房',
   },
 ]
 
