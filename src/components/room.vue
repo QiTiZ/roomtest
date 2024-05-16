@@ -166,7 +166,7 @@ const optionsRoom = [
   },
   {
     value: 'Option1111',
-    label: ' 大床房',
+    label: '大床房',
   },
 ]
 
@@ -181,7 +181,7 @@ const optionsPeople = [
   },
   {
     value: 'Option1111',
-    label: '李四',
+    label: '李四 ',
   },
 ]
 
