@@ -19,7 +19,7 @@
           status-icon
         >
           <el-form-item label="选择疗养所" prop="name">
-            <el-cascader placeholder="请输入所点名称"  :options="options" filterable />
+            <el-cascader placeholder="请输入所点名称" :options="options" filterable />
           </el-form-item>
         </el-form>
       </el-card>
@@ -106,7 +106,6 @@
             </template>
           </el-table-column>
         </el-table>
-        <el-button class="mt-4" style="width: 100%" @click="onAddItem">Add  Item</el-button>
       </el-card>
     </div>
   </div>
@@ -205,8 +204,6 @@ const onAddItem = () => {
   }
   tableData.value.push(newRow)
 }
-
-
 </script>
 
 <style scoped>
